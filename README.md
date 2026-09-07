@@ -226,8 +226,8 @@ Help users recognise increasing workload trends and potential burnout patterns b
 2. Sync Calendar & NLP Input Task
    <img width="585" height="1828" alt="" src="https://github.com/user-attachments/assets/fad4dc2e-0439-4655-a9a5-044d5f71e219" />
    
-3. Preview Impact Before Adding Task
-   <img width="585" height="1414" alt="" src="https://github.com/user-attachments/assets/3641755b-a25d-477f-8ac0-e59b59341ad4" />
+ 3. Preview Impact Before Adding Task
+    <img width="585" height="1414" alt="" src="https://github.com/user-attachments/assets/3641755b-a25d-477f-8ac0-e59b59341ad4" />
 
 4. Response Helper
    <img width="585" height="1564" alt="" src="https://github.com/user-attachments/assets/ab98fac6-6dbb-4203-b683-d6d77052758a" />
