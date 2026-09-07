@@ -220,23 +220,64 @@ Help users recognise increasing workload trends and potential burnout patterns b
 # 3. 🎨 Design & Prototype
 
 ## Key Screens
-1. Persona Onboarding (Setting the "Weekly Plan")
-  <br/> <img width="585" height="1873" alt="" src="https://github.com/user-attachments/assets/f64472a6-c1f1-4410-a368-c138089a0695" />
 
-2. Sync Calendar & NLP Input Task
-   <br/> <img width="585" height="1828" alt="" src="https://github.com/user-attachments/assets/fad4dc2e-0439-4655-a9a5-044d5f71e219" />
-   
- 3. Preview Impact Before Adding Task
-    <br/> <img width="585" height="1414" alt="" src="https://github.com/user-attachments/assets/3641755b-a25d-477f-8ac0-e59b59341ad4" />
+### 1. 👤 Persona Onboarding
 
-4. Response Helper
-   <br/> <img width="585" height="1564" alt="" src="https://github.com/user-attachments/assets/ab98fac6-6dbb-4203-b683-d6d77052758a" />
+*Setting the user's weekly plan*
 
-5. Too Busy Alert
-   <br/> <img width="585" height="1326" alt="" src="https://github.com/user-attachments/assets/b7d09469-63c8-4a3b-b87b-e8c4b37b82fb" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f64472a6-c1f1-4410-a368-c138089a0695" width="280">
+</p>
 
-6. Break Time Interbertion
-   <br/> <img width="585" height="1326" alt="" src="https://github.com/user-attachments/assets/23f332c8-bf23-40ab-9e5e-2c7890ba5191" />
+---
+
+### 2. 📅 Calendar Sync & NLP Input
+
+*Adding commitments through natural language input*
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/fad4dc2e-0439-4655-a9a5-044d5f71e219" width="280">
+</p>
+
+---
+
+### 3. 🔮 Preview Impact Before Adding
+
+*See how a new commitment affects the user's workload*
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3641755b-a25d-477f-8ac0-e59b59341ad4" width="280">
+</p>
+
+---
+
+### 4. 💬 Response Helper
+
+*AI-assisted responses and workload guidance*
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ab98fac6-6dbb-4203-b683-d6d77052758a" width="280">
+</p>
+
+---
+
+### 5. ⚠️ Too Busy Alert
+
+*Alerts users when their workload becomes excessive*
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b7d09469-63c8-4a3b-b87b-e8c4b37b82fb" width="280">
+</p>
+
+---
+
+### 6. 🌱 Break Time Intervention
+
+*Encourages users to take appropriate recovery breaks*
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/23f332c8-bf23-40ab-9e5e-2c7890ba5191" width="280">
+</p>
 
 ---
 
