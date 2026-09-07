@@ -6,7 +6,7 @@
 
 🎥 Video Presentation: [YouTube Link]
 
-📊 Presentation Slides: [Link, if needed]
+📊 Presentation Slides: https://www.canva.com/design/DAHUJUfqS9U/J8KHTdCVnPGB5UXsORckDQ/edit
 
 ---
 
