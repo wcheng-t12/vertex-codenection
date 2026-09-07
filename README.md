@@ -1,186 +1,209 @@
+
 # VERTEX — Stress & Workload Manager
 
-👥 Team: Tan Wei Cheng, Teh Feng Yue, Teh Wen Wen, Woon Kai En
+👥 **Team:** Tan Wei Cheng, Teh Feng Yue, Teh Wen Wen, Woon Kai En
 
-🎯 Problem Statement: Stress & Workload Manager
+🎯 **Problem Statement:** Stress & Workload Manager
 
-🎥 Video Presentation: [YouTube Link]
+🎥 **Video Presentation:** [YouTube Link]
 
-📊 Presentation Slides: https://www.canva.com/design/DAHUJUfqS9U/J8KHTdCVnPGB5UXsORckDQ/edit
+📊 **Presentation Slides:** https://www.canva.com/design/DAHUJUfqS9U/J8KHTdCVnPGB5UXsORckDQ/edit
 
 ---
 
-1. 💡 Project Overview
-1.1 The Problem
+# 1. 💡 Project Overview
+
+## 1.1 The Problem
 
 University students often manage multiple responsibilities at the same time, including:
 
-📚 Academic work and assignments
-💼 Part-time jobs
-👥 Social commitments
-🏠 Personal errands and responsibilities
-🏃 Physical activities and exercise
+* 📚 Academic work and assignments
+* 💼 Part-time jobs
+* 👥 Social commitments
+* 🏠 Personal errands and responsibilities
+* 🏃 Physical activities and exercise
 
-While each responsibility may seem manageable individually, their combined demands can become overwhelming.
+While each responsibility may seem manageable individually, their **combined demands can become overwhelming**.
 
-Most productivity tools focus on individual tasks, deadlines, or schedules, while wellness applications tend to focus primarily on stress and mental well-being. This means students often manage different aspects of their lives separately without understanding how they contribute to their overall workload and available capacity.
+Most productivity tools focus on individual tasks, deadlines, or schedules, while wellness applications tend to focus primarily on stress and mental well-being. This means students often manage different aspects of their lives separately without understanding how they contribute to their **overall workload and available capacity**.
 
 This can result in:
 
-Overcommitting
-Procrastination
-Poor prioritisation
-Lack of recovery time
-Failure to recognise early signs of overload
+* Overcommitting
+* Procrastination
+* Poor prioritisation
+* Lack of recovery time
+* Failure to recognise early signs of overload
 
 By the time students realise they are carrying too much, their workload and stress may have already reached an unhealthy level.
 
-The Core Problem
+### The Core Problem
 
-Students lack a simple way to understand, evaluate, and rebalance their overall workload before it leads to burnout.
+> **Students lack a simple way to understand, evaluate, and rebalance their overall workload before it leads to burnout.**
 
-1.2 🎯 Target Users
+---
 
-VertexLoad is primarily designed for university and college students who manage multiple responsibilities alongside their studies.
+## 1.2 🎯 Target Users
 
-👤 Typical Users
-📚 Full-time students — Managing assignments, projects, presentations, and deadlines.
-💼 Working students — Balancing part-time employment with academic responsibilities.
-🏆 Active students — Participating in clubs, competitions, sports, and extracurricular activities.
-👥 Socially active students — Managing events, outings, and commitments with friends or organisations.
-🏠 Students with personal responsibilities — Handling errands, appointments, family responsibilities, and exercise.
-💭 Typical User Scenario
+**VertexLoad** is primarily designed for **university and college students** who manage multiple responsibilities alongside their studies.
+
+### 👤 Typical Users
+
+* 📚 **Full-time students** — Managing assignments, projects, presentations, and deadlines.
+* 💼 **Working students** — Balancing part-time employment with academic responsibilities.
+* 🏆 **Active students** — Participating in clubs, competitions, sports, and extracurricular activities.
+* 👥 **Socially active students** — Managing events, outings, and commitments with friends or organisations.
+* 🏠 **Students with personal responsibilities** — Handling errands, appointments, family responsibilities, and exercise.
+
+### 💭 Typical User Scenario
 
 A student may have several assignments due within the same week, work a part-time shift during the weekend, attend club activities, exercise regularly, and still need time for personal errands.
 
-Individually, these commitments may seem manageable. However, their combined workload may exceed the student's available capacity.
+Individually, these commitments may seem manageable. However, **their combined workload may exceed the student's available capacity**.
 
 VertexLoad helps students understand this overall load and determine whether they can realistically take on additional commitments.
 
-🧩 User Needs
+### 🧩 User Needs
 
 Users need a solution that can:
 
-Track different types of commitments in one place
-Recognise when their workload is becoming excessive
-Identify the areas contributing most to their overload
-Evaluate the impact of taking on new commitments
-Suggest ways to rebalance their workload
-Encourage appropriate recovery before prolonged overload leads to burnout
-1.3 💡 Our Solution
+* Track different types of commitments in one place
+* Recognise when their workload is becoming excessive
+* Identify the areas contributing most to their overload
+* Evaluate the impact of taking on new commitments
+* Suggest ways to rebalance their workload
+* Encourage appropriate recovery before prolonged overload leads to burnout
 
-VertexLoad is a Stress & Workload Manager designed to help students understand and manage the combined demands of their daily lives.
+---
 
-Instead of focusing only on individual tasks or stress levels, VertexLoad combines different types of commitments and analyses how they affect the student's overall workload and capacity.
+## 1.3 💡 Our Solution
 
-🤖 Conversational AI
+**VertexLoad** is a **Stress & Workload Manager** designed to help students understand and manage the combined demands of their daily lives.
+
+Instead of focusing only on individual tasks or stress levels, VertexLoad combines different types of commitments and analyses how they affect the student's **overall workload and capacity**.
+
+### 🤖 Conversational AI
 
 Users can enter commitments naturally through a conversational AI assistant instead of manually filling out multiple forms.
 
 For example:
 
-"I have an assignment due next Friday and I need to work for six hours this weekend."
+> *"I have an assignment due next Friday and I need to work for six hours this weekend."*
 
 VertexLoad interprets the information, converts it into structured workload data, and updates the user's workload accordingly.
 
-📊 Multi-Dimensional Workload Analysis
+### 📊 Multi-Dimensional Workload Analysis
 
 VertexLoad analyses workload across multiple dimensions:
 
-🧠 Mental
-⏰ Time
-💪 Physical
-👥 Social
-🏠 Personal responsibilities
+* 🧠 Mental
+* ⏰ Time
+* 💪 Physical
+* 👥 Social
+* 🏠 Personal responsibilities
 
 The system can then identify potential overload, simulate the impact of additional commitments, and recommend ways to rebalance the user's workload.
 
-🔄 Our Approach
+### 🔄 Our Approach
 
-Track → Analyse → Predict → Rebalance → Recover
+**Track → Analyse → Predict → Rebalance → Recover**
 
-Through this approach, VertexLoad aims to help students recognise overload before it develops into burnout while providing practical recommendations for managing their commitments.
+Through this approach, VertexLoad aims to help students **recognise overload before it develops into burnout** while providing practical recommendations for managing their commitments.
 
-1.4 🚀 Core Features
+---
 
-VertexLoad consists of seven core features that work together to help students understand, manage, and rebalance their overall workload.
+## 1.4 🚀 Core Features
 
-1. 🤖 Conversational AI Input
+VertexLoad consists of **seven core features** that work together to help students understand, manage, and rebalance their overall workload.
+
+### 1. 🤖 Conversational AI Input
 
 Users can describe their commitments naturally through conversational AI.
 
 The system interprets the user's input and converts it into structured workload data for analysis.
 
-Purpose:
+**Purpose:**
 Reduce input friction and allow users to record commitments quickly and naturally.
 
-2. 📊 Personal Load Dashboard
+---
+
+### 2. 📊 Personal Load Dashboard
 
 Provides an overview of the user's workload across multiple areas:
 
-Mental
-Time
-Physical
-Social
-Personal errands
+* Mental
+* Time
+* Physical
+* Social
+* Personal errands
 
-Purpose:
+**Purpose:**
 Help users understand which areas are contributing most to their overall workload and identify potential sources of overwhelm.
 
-3. ⚠️ Overload Risk Score
+---
+
+### 3. ⚠️ Overload Risk Score
 
 Analyses the user's workload against their available capacity to estimate their current risk of becoming overloaded.
 
-Purpose:
+**Purpose:**
 Alert users when their workload is approaching or exceeding their recommended capacity, allowing them to take action before the situation becomes unmanageable.
 
-4. ⚖️ Load Balancer
+---
+
+### 4. ⚖️ Load Balancer
 
 Helps users determine which commitments should be:
 
-✅ Completed
-⏳ Delayed
-📉 Reduced
-➖ Treated as optional
+* ✅ Completed
+* ⏳ Delayed
+* 📉 Reduced
+* ➖ Treated as optional
 
 when their workload becomes too high.
 
-Purpose:
+**Purpose:**
 Help users actively rebalance their commitments rather than simply informing them that they are overloaded.
 
-5. 🔮 "What If?" Simulator
+---
 
-Allows users to simulate the impact of a new commitment before deciding whether to take it on.
+### 5. 🔮 "What If?" Simulator
+
+Allows users to simulate the impact of a new commitment **before deciding whether to take it on**.
 
 For example:
 
-"What happens if I take on another 6-hour shift this weekend?"
+> *"What happens if I take on another 6-hour shift this weekend?"*
 
 The system estimates how the additional commitment would affect the user's overall workload and risk level.
 
-Purpose:
+**Purpose:**
 Help students make informed decisions about whether they can realistically accommodate additional commitments.
 
-6. 🌱 Recovery Recommendations
+---
+
+### 6. 🌱 Recovery Recommendations
 
 Provides recovery suggestions when the user's workload becomes high.
 
 Examples include:
 
-Taking appropriate breaks
-Getting sufficient sleep
-Exercising
-Spending time away from screens
-Reducing non-essential commitments
+* Taking appropriate breaks
+* Getting sufficient sleep
+* Exercising
+* Spending time away from screens
+* Reducing non-essential commitments
 
-Purpose:
+**Purpose:**
 Encourage students to respond to overload with appropriate recovery rather than focusing solely on productivity.
 
-7. 📈 Weekly Summary & Trends
+---
+
+### 7. 📈 Weekly Summary & Trends
 
 Allows users to review changes in their workload over time and identify recurring patterns.
 
-Purpose:
+**Purpose:**
 Help users recognise increasing workload trends and potential burnout patterns before they become a repeated cycle.
 
 ---
