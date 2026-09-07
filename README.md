@@ -227,7 +227,14 @@ During the ideation process, **Team Vertex** explored different approaches to ad
 | **Weekly Summary & Trends**          | Shows changes in workload over time and identifies recurring workload patterns.                                                           | ✅ **Kept**                       | Helps users recognise repeated periods of increasing workload and potential burnout patterns.                                                                              |
 | **Conversational AI Workload Input** | Allows users to describe their commitments naturally instead of manually entering multiple fields.                                        | 🔄 **Refined from AI Assistant** | Mentor feedback highlighted the need to reduce input friction. The AI was therefore narrowed into a focused workload-input system rather than a general-purpose assistant. |
 
-## 2.2 Ideation Boards
+## 2.2 🧠 Ideation Boards
+
+Our team used collaborative ideation to explore different approaches to student workload, stress management, and well-being. The brainstorming process helped us identify the key problems and features that eventually shaped VertexLoad.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/15b40ca2-1647-4c0b-ae59-2aa7e3bbafa5" width="900">
+</p>
+
 ## 2.3 Mentor Consultation
 
 ---
