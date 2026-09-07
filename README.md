@@ -88,8 +88,24 @@ Purpose: Helps users recognise increasing workload trends and potential burnout 
 
 # 3. 🎨 Design & Prototype
 
-## UI Prototype
 ## Key Screens
+1. Persona Onboarding (Setting the "Weekly Plan")
+   <img width="585" height="1873" alt="" src="https://github.com/user-attachments/assets/f64472a6-c1f1-4410-a368-c138089a0695" />
+
+2. Sync Calendar & NLP Input Task
+  <img width="585" height="1828" alt="" src="https://github.com/user-attachments/assets/fad4dc2e-0439-4655-a9a5-044d5f71e219" />
+   
+3. Preview Impact Before Adding Task
+  <img width="585" height="1414" alt="" src="https://github.com/user-attachments/assets/3641755b-a25d-477f-8ac0-e59b59341ad4" />
+
+4. Response Helper
+  <img width="585" height="1564" alt="" src="https://github.com/user-attachments/assets/ab98fac6-6dbb-4203-b683-d6d77052758a" />
+
+5. Too Busy Alert
+  <img width="585" height="1326" alt="" src="https://github.com/user-attachments/assets/b7d09469-63c8-4a3b-b87b-e8c4b37b82fb" />
+
+6. Break Time Interbertion
+  <img width="585" height="1326" alt="" src="https://github.com/user-attachments/assets/23f332c8-bf23-40ab-9e5e-2c7890ba5191" />
 
 ---
 
