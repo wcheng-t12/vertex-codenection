@@ -476,8 +476,158 @@ VERTEXLOAD addresses this root cause by giving students **objective data to just
 
 ---
 
-# 5. 🤖 Technical Architecture & Feasibility
+# 5. 🛠️ Technical Architecture & Feasibility
 
-## Tech Stack
-## System Architecture
-## Build Plan & Scope
+## 5.1 💻 Tech Stack
+
+VERTEXLOAD is designed as a lightweight web-based application with a focus on simplicity, scalability, and rapid development during the hackathon.
+
+| Category                    | Technology                         | Purpose                                                                                                             |
+| --------------------------- | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| **Frontend**                | HTML, CSS, JavaScript              | Build the responsive user interface and interactive components                                                      |
+| **Backend**                 | ASP.NET MVC / C#                   | Handle application logic, workload calculations, user requests, and communication between the frontend and database |
+| **Database**                | MySQL                              | Store user profiles, commitments, workload data, schedules, and historical trends                                   |
+| **AI / NLP**                | LLM-based API *(under evaluation)* | Extract structured workload information from natural language input and support AI-powered recommendations          |
+| **Development Environment** | Visual Studio Code                 | Primary development and code editing environment                                                                    |
+| **Version Control**         | Git & GitHub                       | Source code management and team collaboration                                                                       |
+
+The proposed technology stack allows the team to separate the application into clear components while remaining practical to develop within the hackathon timeframe.
+
+---
+
+## 5.2 🏗️ System Architecture
+
+VERTEXLOAD follows a modular architecture where the **frontend, backend, database, and AI services** work together to process user workload information.
+
+### High-Level Architecture
+
+```text
+                    ┌─────────────────────┐
+                    │       User          │
+                    │   Mobile / Web UI   │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │     Frontend        │
+                    │ HTML / CSS / JS     │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │   Backend / MVC     │
+                    │     C# / ASP.NET    │
+                    └──────┬────────┬─────┘
+                           │        │
+                 ┌─────────┘        └──────────┐
+                 ▼                             ▼
+       ┌─────────────────┐           ┌─────────────────┐
+       │     MySQL       │           │   AI / LLM API  │
+       │    Database     │           │   NLP / Analysis │
+       └─────────────────┘           └─────────────────┘
+                 │                             │
+                 └────────────┬────────────────┘
+                              ▼
+                    ┌─────────────────────┐
+                    │  Workload Analysis  │
+                    │  & Recommendations  │
+                    └─────────────────────┘
+```
+
+### Core Data Flow
+
+The system is designed around the following workflow:
+
+**User Input → AI Extraction → Structured Data → Workload Analysis → Decision Support → User Action**
+
+For example:
+
+1. The student enters a commitment using natural language.
+2. The AI service extracts relevant information such as task type, date, duration, and category.
+3. The backend converts the extracted information into structured workload data.
+4. The system calculates the potential impact on the student's existing workload.
+5. The application displays the impact before the commitment is added.
+6. The student can accept, modify, reschedule, or decline the commitment.
+7. If the workload becomes excessive, the system can trigger warnings and recovery recommendations.
+
+This architecture allows the AI component to remain modular and replaceable depending on the API selected during development.
+
+---
+
+## 5.3 🤖 AI / API Usage
+
+AI is planned to be used as a **supporting component** rather than the core decision-making system.
+
+The team is currently evaluating suitable **LLM-based APIs** based on availability, cost, response speed, and ease of integration.
+
+### Planned AI Applications
+
+| AI Function                     | Purpose                                                                                                                                          |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Natural Language Extraction** | Convert user messages such as “I have an assignment due next Friday and need around 6 hours to complete it” into structured workload information |
+| **Commitment Classification**   | Identify whether a commitment is related to mental, time, physical, social, or errands workload                                                  |
+| **Information Extraction**      | Identify dates, times, duration, priority, and other relevant information from user input                                                        |
+| **Reply Helper**                | Generate polite responses for declining, negotiating, or rescheduling commitments                                                                |
+| **Recommendation Support**      | Provide contextual suggestions based on the user's workload situation                                                                            |
+
+### AI Transparency
+
+To improve trust, AI-generated outputs should not appear as unexplained decisions.
+
+Where appropriate, VERTEXLOAD will display the relevant factors used in the result, such as:
+
+* Current workload percentage
+* Additional time required
+* Affected workload categories
+* Available recovery time
+* Existing commitments contributing to the workload
+
+The final workload calculation and threshold logic will remain **system-controlled**, while the LLM is primarily responsible for understanding natural-language input and generating user-friendly responses.
+
+> **Note:** The specific LLM/API provider is currently under evaluation and may be selected based on feasibility during implementation.
+
+---
+
+## 5.4 🚀 Build Plan & Scope
+
+The project is scoped to focus on the core workflow rather than attempting to build a complete productivity platform.
+
+### Core MVP
+
+The minimum viable product will focus on the following workflow:
+
+**Set Up → Sync & Input → Check Before Adding → Reply → Too Busy Warning → Time for a Break**
+
+| Priority                  | Feature                     | Scope                                                                           |
+| ------------------------- | --------------------------- | ------------------------------------------------------------------------------- |
+| 🔴 **Must Have**          | User Onboarding             | Establish the user's normal weekly capacity and workload baseline               |
+| 🔴 **Must Have**          | Commitment Input            | Allow users to enter tasks and commitments manually or through natural language |
+| 🔴 **Must Have**          | Workload Analysis           | Calculate workload across Mental, Time, Physical, Social, and Errands           |
+| 🔴 **Must Have**          | Check Before Adding         | Show the potential impact of a new commitment before adding it                  |
+| 🔴 **Must Have**          | Overload Warning            | Detect when workload reaches a high-risk level                                  |
+| 🔴 **Must Have**          | Reply Helper                | Generate responses for declining, negotiating, or rescheduling commitments      |
+| 🟡 **Should Have**        | Recovery Recommendations    | Suggest breaks or recovery activities based on workload                         |
+| 🟡 **Should Have**        | Weekly Summary              | Display workload trends and recurring patterns                                  |
+| 🟢 **Future Enhancement** | Advanced AI Personalisation | Improve recommendations using longer-term workload patterns                     |
+| 🟢 **Future Enhancement** | Additional Integrations     | Expand calendar and external service integrations                               |
+
+### Feasibility
+
+VERTEXLOAD is intentionally scoped around a small number of high-impact interactions rather than a large number of features.
+
+The core workload calculations can be handled through **rule-based backend logic**, while AI is used where it provides the most value: **reducing manual input and improving communication**.
+
+This separation reduces technical complexity and ensures that the system can still provide its core workload-management functionality even if the final AI/API implementation changes.
+
+### Development Approach
+
+The team will prioritise the core user journey first:
+
+1. **Build** the workload and commitment data model
+2. **Implement** workload calculations and capacity analysis
+3. **Develop** the Check Before Adding feature
+4. **Integrate** the selected LLM/API for natural-language input
+5. **Implement** Reply Helper and overload interventions
+6. **Test and refine** the mobile-first user experience
+7. **Integrate and demonstrate** the complete workflow
+
