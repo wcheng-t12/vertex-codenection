@@ -1,7 +1,7 @@
 
 # VERTEX — Stress & Workload Manager
 
-👥 **Team:** Tan Wei Cheng, Teh Feng Yue, Teh Wen Wen, Woon Kai En
+👥 **Team:** Tan Wei Cheng, Teh Feng Yue, Teh Wen Wen, Woon Kai-En
 
 🎯 **Problem Statement:** Stress & Workload Manager
 
