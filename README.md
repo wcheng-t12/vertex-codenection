@@ -231,9 +231,22 @@ During the ideation process, **Team Vertex** explored different approaches to ad
 
 Our team used collaborative ideation to explore different approaches to student workload, stress management, and well-being. The brainstorming process helped us identify the key problems and features that eventually shaped VertexLoad.
 
+### 🌳 Problem Tree
+
+The **Problem Tree** was used to break down the main problem into its underlying causes and resulting effects. This helped the team understand why students may become overloaded and the consequences that can arise from unmanaged workload.
+
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/15b40ca2-1647-4c0b-ae59-2aa7e3bbafa5" width="900">
+  <img src="https://github.com/user-attachments/assets/9ac30d16-726e-49b0-a512-e73e393e3a4c" alt="VERTEXLOAD Problem Tree" width="900">
 </p>
+
+### 🗺️ Mind Map
+
+The **Mind Map** was used to explore different aspects of student workload, stress, responsibilities, and potential solution directions. It helped the team organise our initial ideas and identify areas that could be developed into features.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/15b40ca2-1647-4c0b-ae59-2aa7e3bbafa5" alt="VERTEXLOAD Mind Map" width="900">
+</p>
+
 
 ## 2.3 🧑‍🏫 Mentor Consultation
 
