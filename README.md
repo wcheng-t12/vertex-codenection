@@ -221,6 +221,7 @@ Users can review their workload throughout the week and see how their commitment
 
 **Purpose:**
 Help students understand their workload patterns and recognise periods where they may consistently be carrying too much.
+
 ---
 
 # 2. 🧠 Ideation & Process
