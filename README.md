@@ -580,7 +580,7 @@ VERTEXLOAD follows a modular architecture where the **frontend, backend, databas
                  ▼                             ▼
        ┌─────────────────┐           ┌─────────────────┐
        │     MySQL       │           │   AI / LLM API  │
-       │    Database     │           │   NLP / Analysis │
+       │    Database     │           │  NLP / Analysis │
        └─────────────────┘           └─────────────────┘
                  │                             │
                  └────────────┬────────────────┘
