@@ -560,27 +560,27 @@ VERTEXLOAD follows a modular architecture where the **frontend, backend, databas
 
 ```text
                     ┌─────────────────────┐
-                    │       User          │
+                    │        User         │
                     │   Mobile / Web UI   │
                     └──────────┬──────────┘
                                │
                                ▼
                     ┌─────────────────────┐
-                    │     Frontend        │
-                    │ HTML / CSS / JS     │
+                    │      Frontend       │
+                    │   HTML / CSS / JS   │
                     └──────────┬──────────┘
                                │
                                ▼
                     ┌─────────────────────┐
-                    │   Backend / MVC     │
+                    │    Backend / MVC    │
                     │     C# / ASP.NET    │
                     └──────┬────────┬─────┘
                            │        │
                  ┌─────────┘        └──────────┐
                  ▼                             ▼
        ┌─────────────────┐           ┌─────────────────┐
-       │     MySQL       │           │   AI / LLM API  │
-       │    Database     │           │  NLP / Analysis │
+       │      MySQL      │           │   AI / LLM API  │
+       │     Database    │           │  NLP / Analysis │
        └─────────────────┘           └─────────────────┘
                  │                             │
                  └────────────┬────────────────┘
@@ -611,41 +611,7 @@ This architecture allows the AI component to remain modular and replaceable depe
 
 ---
 
-## 5.3 🤖 AI / API Usage
-
-AI is planned to be used as a **supporting component** rather than the core decision-making system.
-
-The team is currently evaluating suitable **LLM-based APIs** based on availability, cost, response speed, and ease of integration.
-
-### Planned AI Applications
-
-| AI Function                     | Purpose                                                                                                                                          |
-| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Natural Language Extraction** | Convert user messages such as “I have an assignment due next Friday and need around 6 hours to complete it” into structured workload information |
-| **Commitment Classification**   | Identify whether a commitment is related to mental, time, physical, social, or errands workload                                                  |
-| **Information Extraction**      | Identify dates, times, duration, priority, and other relevant information from user input                                                        |
-| **Reply Helper**                | Generate polite responses for declining, negotiating, or rescheduling commitments                                                                |
-| **Recommendation Support**      | Provide contextual suggestions based on the user's workload situation                                                                            |
-
-### AI Transparency
-
-To improve trust, AI-generated outputs should not appear as unexplained decisions.
-
-Where appropriate, VERTEXLOAD will display the relevant factors used in the result, such as:
-
-* Current workload percentage
-* Additional time required
-* Affected workload categories
-* Available recovery time
-* Existing commitments contributing to the workload
-
-The final workload calculation and threshold logic will remain **system-controlled**, while the LLM is primarily responsible for understanding natural-language input and generating user-friendly responses.
-
-> **Note:** The specific LLM/API provider is currently under evaluation and may be selected based on feasibility during implementation.
-
----
-
-## 5.4 🚀 Build Plan & Scope
+## 5.3 🚀 Build Plan & Scope
 
 The project is scoped to focus on the core workflow rather than attempting to build a complete productivity platform.
 
