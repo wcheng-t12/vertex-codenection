@@ -292,6 +292,19 @@ The **Mind Map** was used to explore different aspects of student workload, stre
 </p>
 
 
+### 🔄 User Flow
+
+The user flow illustrates how a student interacts with VertexLoad, from setting up their workload plan to evaluating and responding to new commitments.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9cc28037-4517-48a3-9e53-97d525ab3710" alt="VERTEXLOAD User Flow" width="900">
+</p>
+
+The flow focuses on the **Check Before Adding** concept, where students can evaluate the impact of a new commitment before accepting it. If the commitment exceeds their planned capacity, VertexLoad provides actionable options such as **Reply Helper** and **Time for a Break**.
+
+This allows VertexLoad to move beyond simply tracking tasks and instead help students **make better workload decisions before becoming overwhelmed**.
+
+
 ## 2.3 🧑‍🏫 Mentor Consultation
 
 During the development process, Team Vertex consulted with mentors to validate our concept, improve the user experience, and identify areas where the project could be made more distinctive and practical.
