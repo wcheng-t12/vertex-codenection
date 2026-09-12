@@ -7,7 +7,7 @@
 
 🎥 **Video Presentation:** [YouTube Link]
 
-📊 **Presentation Slides:** [Canva Presentation](https://www.canva.com/design/DAHUJUfqS9U/J8KHTdCVnPGB5UXsORckDQ/edit)
+📊 **Presentation Slides:** [Canva Presentation](https://www.canva.com/design/DAHUtATZgiQ/apA0mSaEQH7qpexmprRp3A/edit)
 
 🎨 **Prototype:** [View VERTEXLOAD Prototype](https://stitch.withgoogle.com/preview/11738267999787037109?node-id=36674d3779904539bcb6b809b0551115&pli=1)
 
