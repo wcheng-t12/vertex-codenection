@@ -399,11 +399,11 @@ During the development process, Team Vertex consulted with mentors to validate o
 
 ## 4.1 💡 Novel Features
 
-**VERTEXLOAD** introduces two novel features that set it apart from existing productivity, wellbeing, and task management tools. These features focus on helping students make better decisions **before they commit**, rather than simply managing tasks after they have already accepted them.
+**VertexLoad** introduces two novel features that set it apart from existing productivity, wellbeing, and task management tools. These features focus on helping students make better decisions **before they commit**, rather than simply managing tasks after they have already accepted them.
 
 ### 1. ✅ Check Before Adding — Know the Cost Before Saying YES
 
-When a student logs a new task or commitment, **VERTEXLOAD does not immediately add it to their schedule**. Instead, the app first calculates and displays exactly how this new task will affect their current workload.
+When a student logs a new task or commitment, **VertexLoad does not immediately add it to their schedule**. Instead, the app first calculates and displays exactly how this new task will affect their current workload.
 
 The student sees a clear preview of how their load percentage changes (**67% → 87%**) and how much recovery or break time the new task will consume (**3 hours → 0 hours**).
 
@@ -466,13 +466,13 @@ It also solves a key pain point: students often **know they are too busy but sti
 
 Existing applications commonly address specific parts of the problem, such as task management, calendar planning, wellbeing tracking, or self-care.
 
-**VERTEXLOAD combines these areas around a different decision point:**
+**VertexLoad combines these areas around a different decision point:**
 
 > **“What happens before a student accepts a new commitment?”**
 
 ### Feature Comparison
 
-| Capability                               | **VERTEXLOAD** | **Reclaim.ai** |  **Finch** | **Daylio** |  **Tiimo** |
+| Capability                               | **VertexLoad** | **Reclaim.ai** |  **Finch** | **Daylio** |  **Tiimo** |
 | ---------------------------------------- | :------------: | :------------: | :--------: | :--------: | :--------: |
 | Commitment / schedule management         |        ✅       |        ✅       |      ➖     |      ➖     |      ✅     |
 | Workload / capacity awareness            |        ✅       |    Time only   |      ➖     |      ➖     |      ➖     |
@@ -481,14 +481,14 @@ Existing applications commonly address specific parts of the problem, such as ta
 | Overload warning                         |        ✅       |        ➖       |      ➖     |      ➖     |      ➖     |
 | Workload-triggered recovery intervention |        ✅       |        ➖       | Mood-based |      ➖     | Time-based |
 
-The table shows that while existing applications may overlap with individual VERTEXLOAD features, **none combine them into a workflow focused on pre-commitment decision-making**.
+The table shows that while existing applications may overlap with individual VertexLoad features, **none combine them into a workflow focused on pre-commitment decision-making**.
 
 * **Reclaim.ai** optimizes calendar time but does not track multi-category workload capacity.
 * **Finch** and **Tiimo** support recovery and routine-building, but their interventions are triggered by mood or schedule gaps rather than actual workload overload.
 * **Daylio** focuses on mood tracking without workload context.
-* **VERTEXLOAD** triggers recovery based on workload capacity across **five areas: Mental, Time, Physical, Social, and Errands**.
+* **VertexLoad** triggers recovery based on workload capacity across **five areas: Mental, Time, Physical, Social, and Errands**.
 
-VERTEXLOAD differentiates itself by connecting these capabilities around one central question:
+VertexLoad differentiates itself by connecting these capabilities around one central question:
 
 > **“Can I actually afford to take this on?”**
 
@@ -496,9 +496,9 @@ This shifts the focus from **managing overload after it occurs** to **preventing
 
 ---
 
-## 4.3 🔥 Why VERTEXLOAD Is Different
+## 4.3 🔥 Why VertexLoad Is Different
 
-VERTEXLOAD is not designed to be another task manager, calendar, or wellbeing application.
+VertexLoad is not designed to be another task manager, calendar, or wellbeing application.
 
 Instead, it addresses a gap that these tools leave open:
 
@@ -514,9 +514,9 @@ By the time a student realizes they are overloaded, the damage is already done. 
 * **Cancel commitments** and face social or academic consequences
 * **Struggle to rebalance** without guidance
 
-### The VERTEXLOAD Approach
+### The VertexLoad Approach
 
-VERTEXLOAD introduces a **decision layer before the commitment enters the student’s workload**.
+VertexLoad introduces a **decision layer before the commitment enters the student’s workload**.
 
 This allows students to:
 
@@ -526,7 +526,7 @@ This allows students to:
 
 ### How It Works
 
-The VERTEXLOAD workflow is designed around this pre-commitment decision point:
+The VertexLoad workflow is designed around this pre-commitment decision point:
 
 **Set Up → Sync & Input → Check Before Adding → Reply → Too Busy Warning → Time for a Break**
 
@@ -547,7 +547,7 @@ It happens because **new commitments keep being added into an already packed lif
 
 VERTEXLOAD addresses this root cause by giving students **objective data to justify a subjective boundary**.
 
-### 🎯 VERTEXLOAD’s Value Proposition
+### 🎯 VertexLoad’s Value Proposition
 
 > ## **Know the cost before you say YES.**
 
@@ -558,7 +558,7 @@ VERTEXLOAD addresses this root cause by giving students **objective data to just
 
 ## 5.1 💻 Tech Stack
 
-VERTEXLOAD is designed as a lightweight web-based application with a focus on simplicity, scalability, and rapid development during the hackathon.
+VertexLoad is designed as a lightweight web-based application with a focus on simplicity, scalability, and rapid development during the hackathon.
 
 | Category                    | Technology                         | Purpose                                                                                                             |
 | --------------------------- | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
@@ -575,7 +575,7 @@ The proposed technology stack allows the team to separate the application into c
 
 ## 5.2 🏗️ System Architecture
 
-VERTEXLOAD follows a modular architecture where the **frontend, backend, database, and AI services** work together to process user workload information.
+VertexLoad follows a modular architecture where the **frontend, backend, database, and AI services** work together to process user workload information.
 
 ### High-Level Architecture
 
@@ -657,7 +657,7 @@ The minimum viable product will focus on the following workflow:
 
 ### Feasibility
 
-VERTEXLOAD is intentionally scoped around a small number of high-impact interactions rather than a large number of features.
+VertexLoad is intentionally scoped around a small number of high-impact interactions rather than a large number of features.
 
 The core workload calculations can be handled through **rule-based backend logic**, while AI is used where it provides the most value: **reducing manual input and improving communication**.
 
